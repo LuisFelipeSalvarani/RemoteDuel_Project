@@ -1,0 +1,66 @@
+Site Remote Duel
+
+Pagina index:
+
+- slideshow 
+- Breve apresentação.
+- link do discord
+
+Pagina mostragem da staff:
+- Foto de cada adm em um card
+- cargo
+- perfil discord
+- contato
+
+Pagina torneio.
+- Datas e incrições para torneio
+- participante podera se inscrever
+
+ -> pagina de inscrição
+	- enviar deck list
+
+Pagina rank.
+- rank por pontuação de player no discord.
+
+pagina login
+
+Pagina de cadastro:
+- passara por aprovação dos adms com os dados do discord
+
+Pagina de perfil
+
+Pagina sugestão
+- ter pré definições, como (chat, discord, etc)
+- dar sugestões em forma de texto
+
+--------------------------------------------------------------------
+
+ADM
+
+Pagina login adm
+
+Pagina aceitação de cadastro:
+- aceitar ou não
+- mostrar todo o perfil da pessoa e verificar se bate com o discord
+
+Pagina mostragem da Staff:
+- adicionar informações ou retirar da Staff
+
+pagina torneio:
+- Cadastrar torneio
+- estilo de torneios
+
+Pagina de aceitação torneio
+- Podera aceitar o participante
+- ver perfil e deck list
+
+Pagina rank:
+- pontuar os players
+
+Pagina de Sugestões:
+- podera ver as sugestões e aceitar ou recusar
+
+
+
+
+
