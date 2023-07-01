@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    width: 100%;
+    margin-top: 50px;
+    color: #B2292C;
+    border-bottom: 2px solid #B2292C;
+}
+
+main {
+    min-height: 50vh;
+}
+
+.pesquisa_barra {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.posicao {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #B2292C;
+    border: 1px solid #B2292C;
+}
+
+.color_posicao {
+    margin-left: 10px;
+    color: limegreen;
+}
+
+/*tabela*/
+
+.rank_table {
+    margin-top: 30px;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    font-weight: 500;
+    border-color: #dee2e6;
+    vertical-align: middle;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-bordered {
+    border-color: #dee2e6;
+}
+
+.table-bordered thead th, .table-bordered tbody td {
+    border-color: #dee2e6;
+}
+
+.table-bordered thead th {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+@media only screen and (max-width: 600px) {
+    .pesquisa_barra {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pesquisar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

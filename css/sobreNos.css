@@ -28,7 +28,23 @@ header > h1 {
 .card {
     margin: 40px;
     width: 18em;
+    border: 4px solid #B2292C;
+    animation: pulse 3s infinite;
+    transition: all ease-in-out 3s;
 }
+
+@keyframes pulse {
+    0% {
+      border-color: #B2292C;
+    }
+    50% {
+      border-color: #c4c4c4;
+    }
+    100% {
+      border-color: #B2292C;
+    }
+  }
+
 
 .img_logo {
     width: 100%;
