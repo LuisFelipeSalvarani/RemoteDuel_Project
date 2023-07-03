@@ -31,7 +31,7 @@ class usuario {
             $conexao->exec($sql);
     
             // echo "<h1>Registro Gravado com Sucesso!!!</h1>";
-            header('Location: ../html/index.html');
+            header('Location: ../html/index.php');
         }
         else {
             echo "Senha e confirmação de senha não são iguais. Tente novamente.";

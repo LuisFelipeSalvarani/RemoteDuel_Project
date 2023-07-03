@@ -15,11 +15,11 @@
 
     if($usuario_logado == null){
         //Usuario ou senha inválida
-        header('Location: ../html/login.html');
+        header('Location: ../html/login.php');
     } else{
         session_start();
 
         $_SESSION['usuario_logado'] = $usuario_logado;
-        header('Location: ../html/indexlogado.html');
+        header('Location: ../html/indexlogado.php');
     }
 ?>

@@ -11,7 +11,7 @@
                     <a class="links-nav" href="devs.php">Devs</a>
                 </div>
                 <div class="navbar-nav text-center">
-                    <a class="nav-link active_nav botom_nav botom_cell" href="login.html">Fazer Login</a>
+                    <a class="nav-link active_nav botom_nav botom_cell" href="login.php">Fazer Login</a>
                 </div>
             </div>
         </div>
