@@ -11,29 +11,14 @@
   </head>
   <body>
 
-    <!--inicio do site (topo)-->
-    <nav class="navbar navbar-expand-lg nav_color">
-        <div class="container-fluid container">
-            <a class="navbar-brand" href="index.html"><img class="nav_logo" src="../imgs/remote_duel_logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse nav_flex" id="navbarNavAltMarkup">
-                <div class="navbar-nav text-center">
-                    <a class="links-nav" href="sobreNos.html">Sobre nós</a>
-                    <a class="links-nav" href="devs.html">Devs</a>
-                </div>
-                <div class="navbar-nav text-center">
-                    <a class="nav-link active_nav botom_nav botom_cell" href="login.html">Fazer Login</a>
-                </div>
-            </div>
-        </div>
-        </nav>
+    <?php
+        require '../php/navFooter/nav.php'
+   ?>
     
     <!--Login-->
     <header>
         <div class="container top_cadastro">
-            <form action="../../includes/inserirUsuario.php" method="POST">
+            <form action="../php/usuario-gravar.php" method="POST">
                 <div class="title_cadastro">
                     <label>Cadastro</label>
                 </div>
@@ -47,7 +32,7 @@
                         <label for="floatingInput">Nome:</label>
                     </div>
                     <div class="col-sm-6 form-floating ">
-                        <input type="text" id="DateNasc" name="dataNascimento" onkeypress="mascaraDate()" maxlength="10" minlength="10" class="form-control" id="floatingInput" placeholder="">
+                        <input type="text" id="DateNasc" name="usuario" onkeypress="mascaraDate()" maxlength="10" minlength="10" class="form-control" id="floatingInput" placeholder="">
                         <label for="floatingInput">Nome de usuario</label>
                     </div>
                 </div>
@@ -57,7 +42,7 @@
                         <label for="floatingInput">E-mail:</label>
                     </div>
                     <div class="col-sm-3 form-floating ">
-                        <input type="text" class="form-control" name="celular" maxlength="14" id="tell" onkeypress="macaraTelefone()" placeholder="">
+                        <input type="text" class="form-control" name="telefone" maxlength="14" id="tell" onkeypress="macaraTelefone()" placeholder="">
                         <label for="floatingInput">Telefone:</label>
                     </div>
                 </div>
@@ -68,11 +53,11 @@
                 </div>
                 <div class="row g-3 linha_form_cadastro">
                     <div class="col-sm-6 form-floating ">
-                        <input type="text" class="form-control" id="cep" name="cep" maxlength="10" onkeypress="mascaraCEP()" placeholder="">
+                        <input type="text" class="form-control" id="cep" name="nomeDisc" maxlength="10" onkeypress="mascaraCEP()" placeholder="">
                         <label for="floatingInput">Nome Discord</label>
                     </div>
                     <div class="col-sm-6 form-floating ">
-                        <input type="text" class="form-control" id="cep" name="cep" maxlength="10" onkeypress="mascaraCEP()" placeholder="">
+                        <input type="text" class="form-control" id="cep" name="nomeDiscOp" maxlength="10" onkeypress="mascaraCEP()" placeholder="">
                         <label for="floatingInput">Nome Discord Secundario (Opcional)</label>
                     </div>
                 </div>
@@ -87,7 +72,7 @@
                         <label for="floatingInput">Senha:</label>
                     </div>
                     <div class="col-sm-5 form-floating ">
-                        <input type="password" class="form-control" name="repeteSenha" id="floatingInput" placeholder="">
+                        <input type="password" class="form-control" name="confSenha" id="floatingInput" placeholder="">
                         <label for="floatingInput">Repita a senha:</label>
                     </div>
                     <div class="col-sm-2 btn_salvar">
@@ -99,31 +84,9 @@
         </div>
     </header>
 
-    
-
-     <!--Fim do site (Botom)-->
-
-     <footer class="footer_pc footer_bot">
-        <div class="text-center ">
-            <div class="container">
-                <div class="row row-cols-2 cell_footer">
-                    <div class="redes">
-                        <p>Remote Duel Discord Brasil</p>
-                        <a class="aba" href="sobreNos.html">> Sobre Nós</a>
-                        <a class="aba" href="devs.html">> Devs</a>
-                    </div>             
-                    <div>
-                        <div class="redes">
-                            <p>Nossas Redes</p>
-                        </div>
-                        <div class="redes">
-                            <a href="https://discord.gg/sZzpCqBrYE"><img src="../imgs/discordia.png" alt=""></a>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-          </div>
-    </footer>
+    <?php
+        require '../php/navFooter/footer.php'
+   ?>
 
     <footer class="footer_cell footer_bot text-center">
         <div class="container">

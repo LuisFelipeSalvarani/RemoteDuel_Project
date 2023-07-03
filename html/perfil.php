@@ -12,29 +12,9 @@
   </head>
   <body>
 
-   <!--inicio do site (topo)-->
-   <nav class="navbar navbar-expand-lg nav_color">
-    <div class="container-fluid container">
-        <a class="navbar-brand" href="#"><img class="nav_logo" src="../imgs/remote_duel_logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav_flex" id="navbarNavAltMarkup">
-            <div class="navbar-nav text-center">
-                <a class="links-nav" href="sobreNos.html">Sobre nós</a>
-                <a class="links-nav" href="rank.html">Rank</a>
-                <a class="links-nav" href="torneio.html">Torneios</a>
-                <a class="links-nav" href="sugestoes.html">Sugestões</a>
-                <a class="links-nav" href="devs.html">Devs</a>
-                <a class="links-nav perfil-active " href="perfil.html">Perfil</a>
-            </div>
-            <div class="perfil">
-                <a class="" href="perfil.html"><img class="img-perfil" src="../imgs/perfiltest.jpg" alt=""></a>
-            </div>
-        </div>
-    </div>
-    </nav>
-    
+  <?php
+        require '../php/navFooter/navLogado.php'
+   ?>    
 
     <!--Perfil-->
     <header>
@@ -120,58 +100,9 @@
         </div>
     </header>
 
-    
-
-       <!--Fim do site (Botom)-->
-
-    <footer class="footer_pc footer_bot">
-        <div class="text-center ">
-            <div class="container">
-                <div class="row row-cols-2 cell_footer">
-                    <div class="redes">
-                        <p>Remote Duel Discord Brasil</p>
-                        <a class="aba" href="">> Sobre Nós</a>
-                        <a class="aba" href="">> Rank</a>
-                        <a class="aba" href="">> Torneios</a>
-                        <a class="aba" href="#">> Sugestões</a>
-                        <a class="aba" href="">> Devs</a>
-                    </div>            
-                    <div>
-                        <div class="redes">
-                            <p>Nossas Redes</p>
-                        </div>
-                        <div class="redes">
-                            <a href="https://discord.gg/sZzpCqBrYE"><img src="../imgs/discordia.png" alt=""></a>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-          </div>
-    </footer>
-
-    <footer class="footer_cell footer_bot text-center">
-        <div class="container">
-            <div>
-                <a class="navbar-brand" href="#"><img class="nav_logo" src="../imgs/remote_duel_logo.png" alt=""></a>
-            </div>   
-            <div class="redes espacamento_cell_footer">
-                <p>Remote Duel Discord Brasil</p>
-                <a class="aba" href="">> Sobre Nós</a>
-                <a class="aba" href="">> Rank</a>
-                <a class="aba" href="">> Torneios</a>
-                <a class="aba" href="#">> Sugestões</a>
-                <a class="aba" href="">> Devs</a>
-            </div>             
-            <div>
-                <div class="redes espacamento_cell_footer">
-                    <p>Nossas Redes</p>
-                </div>
-                <div class="redes">
-                    <a href="https://discord.gg/sZzpCqBrYE"><img src="../imgs/discordia.png" alt=""></a>
-                </div>
-            </div> 
-        </div>
-    </footer>
+    <?php
+        require '../php/navFooter/footerLogado.php'
+   ?>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <!-- JS UTILIZADO -->
